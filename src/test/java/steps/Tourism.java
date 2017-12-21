@@ -15,8 +15,8 @@ public class Tourism {
   private WebDriver driver;
   
   public Tourism(Context context) {
+	  
 	  this.context = context;
-	  //driver= context.InitializeTest();
 	  driver = context.getDriver();
 	  homePage= new HomePage(driver);
   }

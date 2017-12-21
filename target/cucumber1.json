@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 11035909913,
+              "duration": 8215077386,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 786429046,
+              "duration": 804975565,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 194587760,
+              "duration": 1341368573,
               "status": "passed"
             },
             "line": 5,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 72004572,
+              "duration": 130333221,
               "status": "passed"
             },
             "line": 6,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 7495954933,
+              "duration": 1366125101,
               "status": "passed"
             },
             "line": 7,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 10100049219,
+              "duration": 10104495737,
               "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat pageObjects.ReservationPage.verifyreservationPage(ReservationPage.java:21)\r\n\tat steps.LogOn.login_results_must_be(LogOn.java:29)\r\n\tat ✽.Then login result must be badLogin(src/test/java/features/tourism.feature:8)\r\n",
               "status": "failed"
             },
@@ -114,7 +114,7 @@
         "before": [
           {
             "result": {
-              "duration": 10184772391,
+              "duration": 6269164791,
               "status": "passed"
             },
             "match": {
@@ -129,7 +129,7 @@
         "after": [
           {
             "result": {
-              "duration": 691879308,
+              "duration": 765499481,
               "status": "passed"
             },
             "match": {
@@ -142,7 +142,7 @@
         "steps": [
           {
             "result": {
-              "duration": 95356372,
+              "duration": 122177306,
               "status": "passed"
             },
             "line": 5,
@@ -163,7 +163,7 @@
           },
           {
             "result": {
-              "duration": 81293694,
+              "duration": 98429419,
               "status": "passed"
             },
             "line": 6,
@@ -184,7 +184,7 @@
           },
           {
             "result": {
-              "duration": 7685805992,
+              "duration": 3169515856,
               "status": "passed"
             },
             "line": 7,
@@ -196,7 +196,7 @@
           },
           {
             "result": {
-              "duration": 36823849,
+              "duration": 50357013,
               "status": "passed"
             },
             "line": 8,
@@ -212,6 +212,232 @@
             },
             "matchedColumns": [
               2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6002071403,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.InitializeTest()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Register a new user in the site",
+        "description": "",
+        "id": "curso-de-automation;register-a-new-user-in-the-site;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 773623206,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.TearDownTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "click the REGISTER button",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "I enter a firstname carlos",
+            "match": {},
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "I enter a lastname perez",
+            "match": {},
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "I enter a phone 42289758",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "I enter a email jg@gmail.com",
+            "match": {},
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23,
+            "name": "I enter a adress1 Abalbin1",
+            "match": {},
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24,
+            "name": "I enter a adress2 balbin2",
+            "match": {},
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "I enter a city BsAs",
+            "match": {},
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "I enter a state BsAs",
+            "match": {},
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "I enter a postalCode 1888",
+            "match": {},
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28,
+            "name": "I enter a country ARGENTINA",
+            "match": {},
+            "matchedColumns": [
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "I enter a user pepe",
+            "match": {},
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "I enter a password peperoni",
+            "match": {
+              "arguments": [
+                {
+                  "val": "peperoni",
+                  "offset": 19
+                }
+              ],
+              "location": "Tourism.I_enter_a_password(String)"
+            },
+            "matchedColumns": [
+              11
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "I enter a cPassword peperoni",
+            "match": {},
+            "matchedColumns": [
+              12
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "I click SUBMIT button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "register result must be succes",
+            "match": {},
+            "matchedColumns": [
+              13
             ],
             "keyword": "Then "
           }

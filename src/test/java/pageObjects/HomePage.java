@@ -11,6 +11,7 @@ public class HomePage {
 	private By userField = By.name("userName");
 	private By passwordField = By.name("password");
 	private By submitButton = By.name("login");
+	private By registerButton = By.linkText("REGISTER");
 	
 	public HomePage(WebDriver driver) {
 		
@@ -31,5 +32,9 @@ public class HomePage {
 	}
 	
 	
+	public void goToRegisterPage() {
+		
+		this.driver.findElement(registerButton).click();
+	}
 	
 }
