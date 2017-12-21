@@ -7,7 +7,7 @@ import org.testng.Assert;
 public class HomePage {
 	
 	private WebDriver driver;
-	//private Waiter waiter;
+	
 	private By userField = By.name("userName");
 	private By passwordField = By.name("password");
 	private By submitButton = By.name("login");
@@ -15,7 +15,7 @@ public class HomePage {
 	public HomePage(WebDriver driver) {
 		
 		this.driver = driver;
-		//waiter = new Waiter(driver);
+		
 	}
 	
 	public void enterUserName(String username) {

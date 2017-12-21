@@ -8,8 +8,8 @@ When I click  Sign-In button
 Then login result must be <result>
 
 Examples:
-|username|password|result    |
-| pepe   | pepe   | badLogin |
-
+|username |password |result     |
+| pepe    | pepe    | badLogin  |
+| mercury | mercury | goodLogin |
 
 

@@ -6,11 +6,11 @@
         "before": [
           {
             "result": {
-              "duration": 18640326572,
+              "duration": 11035909913,
               "status": "passed"
             },
             "match": {
-              "location": "turism.InitializeTest()"
+              "location": "Common.InitializeTest()"
             }
           }
         ],
@@ -21,11 +21,11 @@
         "after": [
           {
             "result": {
-              "duration": 3184925880,
+              "duration": 786429046,
               "status": "passed"
             },
             "match": {
-              "location": "turism.TearDownTest()"
+              "location": "Common.TearDownTest()"
             }
           }
         ],
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 984748131,
+              "duration": 194587760,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +46,7 @@
                   "offset": 19
                 }
               ],
-              "location": "turism.I_enter_a_username(String)"
+              "location": "Tourism.I_enter_a_username(String)"
             },
             "matchedColumns": [
               0
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 277151354,
+              "duration": 72004572,
               "status": "passed"
             },
             "line": 6,
@@ -67,7 +67,7 @@
                   "offset": 19
                 }
               ],
-              "location": "turism.I_enter_a_password(String)"
+              "location": "Tourism.I_enter_a_password(String)"
             },
             "matchedColumns": [
               1
@@ -76,20 +76,21 @@
           },
           {
             "result": {
-              "duration": 1654442436,
+              "duration": 7495954933,
               "status": "passed"
             },
             "line": 7,
             "name": "I click  Sign-In button",
             "match": {
-              "location": "turism.I_click_sign_in_button()"
+              "location": "Tourism.I_click_sign_in_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 256047773,
-              "status": "passed"
+              "duration": 10100049219,
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat pageObjects.ReservationPage.verifyreservationPage(ReservationPage.java:21)\r\n\tat steps.LogOn.login_results_must_be(LogOn.java:29)\r\n\tat ✽.Then login result must be badLogin(src/test/java/features/tourism.feature:8)\r\n",
+              "status": "failed"
             },
             "line": 8,
             "name": "login result must be badLogin",
@@ -100,7 +101,114 @@
                   "offset": 21
                 }
               ],
-              "location": "turism.login_results_must_be(String)"
+              "location": "LogOn.login_results_must_be(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10184772391,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.InitializeTest()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Log in to the system",
+        "description": "",
+        "id": "curso-de-automation;log-in-to-the-system;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 691879308,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.TearDownTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 95356372,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter a username mercury",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mercury",
+                  "offset": 19
+                }
+              ],
+              "location": "Tourism.I_enter_a_username(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81293694,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter a password mercury",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mercury",
+                  "offset": 19
+                }
+              ],
+              "location": "Tourism.I_enter_a_password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7685805992,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click  Sign-In button",
+            "match": {
+              "location": "Tourism.I_click_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36823849,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "login result must be goodLogin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "goodLogin",
+                  "offset": 21
+                }
+              ],
+              "location": "LogOn.login_results_must_be(String)"
             },
             "matchedColumns": [
               2

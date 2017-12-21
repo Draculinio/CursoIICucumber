@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Curso.AutomationII.RunCuckesTest">
-              <span class="suite-name border-passed">Curso.AutomationII.RunCuckesTest</span>
+              <span class="suite-name border-failed">Curso.AutomationII.RunCuckesTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Curso.AutomationII.RunCuckesTest" class="hide-methods passed suite-Curso.AutomationII.RunCuckesTest"> (hide)</a> <!-- hide-methods passed suite-Curso.AutomationII.RunCuckesTest -->
-                      <a href="#" panel-name="suite-Curso.AutomationII.RunCuckesTest" class="show-methods passed suite-Curso.AutomationII.RunCuckesTest"> (show)</a> <!-- show-methods passed suite-Curso.AutomationII.RunCuckesTest -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Curso.AutomationII.RunCuckesTest" class="hide-methods failed suite-Curso.AutomationII.RunCuckesTest"> (hide)</a> <!-- hide-methods failed suite-Curso.AutomationII.RunCuckesTest -->
+                      <a href="#" panel-name="suite-Curso.AutomationII.RunCuckesTest" class="show-methods failed suite-Curso.AutomationII.RunCuckesTest"> (show)</a> <!-- show-methods failed suite-Curso.AutomationII.RunCuckesTest -->
                     </span>
-                    <div class="method-list-content passed suite-Curso.AutomationII.RunCuckesTest">
+                    <div class="method-list-content failed suite-Curso.AutomationII.RunCuckesTest">
                       <span>
-                        <img width="3%" src="passed.png"/>
+                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Curso.AutomationII.RunCuckesTest" title="Curso.AutomationII.RunCuckesTest" hash-for-method="feature(Curso de automation)">feature(Curso de automation)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Curso.AutomationII.RunCuckesTest -->
+                    </div> <!-- method-list-content failed suite-Curso.AutomationII.RunCuckesTest -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Curso.AutomationII.RunCuckesTest" class="panel Curso.AutomationII.RunCuckesTest">
-          <div class="suite-Curso.AutomationII.RunCuckesTest-class-passed">
+          <div class="suite-Curso.AutomationII.RunCuckesTest-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">Curso.AutomationII.RunCuckesTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -129,12 +129,21 @@
                   </a> <!-- feature(Curso de automation) -->
                   <span class="method-name">feature</span>
                   <span class="parameters">(Curso de automation)</span>
+                  <div class="stack-trace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
+Caused by: java.lang.AssertionError: expected [true] but found [false]
+	at pageObjects.ReservationPage.verifyreservationPage(ReservationPage.java:21)
+	at steps.LogOn.login_results_must_be(LogOn.java:29)
+	at ✽.Then login result must be badLogin(src/test/java/features/tourism.feature:8)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Feature)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Curso.AutomationII.RunCuckesTest-class-passed -->
+          </div> <!-- suite-Curso.AutomationII.RunCuckesTest-class-failed -->
         </div> <!-- panel Curso.AutomationII.RunCuckesTest -->
         <div panel-name="test-xml-Curso.AutomationII.RunCuckesTest" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -198,12 +207,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
 data.setCell(0, 2, 'Curso.AutomationII.RunCuckesTest')
-data.setCell(0, 3, 25246);
+data.setCell(0, 3, 48599);
 window.suiteTableData['Curso.AutomationII.RunCuckesTest']= { tableData: data, tableDiv: 'times-div-Curso.AutomationII.RunCuckesTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <span class="suite-total-time">Total running time: 48 seconds</span>
               <div id="times-div-Curso.AutomationII.RunCuckesTest">
               </div> <!-- times-div-Curso.AutomationII.RunCuckesTest -->
             </div> <!-- times-div -->
@@ -235,12 +244,14 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">feature(Curso de automation)</span>
-                <span class="method-start">566 ms</span>
+                <span class="method-start">448 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">25813 ms</span>
+                <span class="method-start">49066 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
