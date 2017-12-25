@@ -11,8 +11,13 @@ public class Context {
 	private WebDriver driver;
 
 	public Context() {
-		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
-		  driver = new ChromeDriver();
+		if (System.getProperty("os.name").startsWith("Windows")) {
+			System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
+			
+		}else {
+			System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver");
+		}
+		driver = new ChromeDriver();
 	}
 	
 	public WebDriver getDriver() {

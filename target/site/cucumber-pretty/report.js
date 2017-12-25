@@ -71,7 +71,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 8215077386,
+  "duration": 15222499705,
   "status": "passed"
 });
 formatter.scenario({
@@ -121,7 +121,7 @@ formatter.match({
   "location": "Tourism.I_enter_a_username(String)"
 });
 formatter.result({
-  "duration": 1341368573,
+  "duration": 960284621,
   "status": "passed"
 });
 formatter.match({
@@ -134,14 +134,14 @@ formatter.match({
   "location": "Tourism.I_enter_a_password(String)"
 });
 formatter.result({
-  "duration": 130333221,
+  "duration": 68946389,
   "status": "passed"
 });
 formatter.match({
   "location": "Tourism.I_click_sign_in_button()"
 });
 formatter.result({
-  "duration": 1366125101,
+  "duration": 1230201210,
   "status": "passed"
 });
 formatter.match({
@@ -154,16 +154,16 @@ formatter.match({
   "location": "LogOn.login_results_must_be(String)"
 });
 formatter.result({
-  "duration": 10104495737,
+  "duration": 10056629952,
   "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat pageObjects.ReservationPage.verifyreservationPage(ReservationPage.java:21)\r\n\tat steps.LogOn.login_results_must_be(LogOn.java:29)\r\n\tat ✽.Then login result must be badLogin(src/test/java/features/tourism.feature:8)\r\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 804975565,
+  "duration": 1167752208,
   "status": "passed"
 });
 formatter.before({
-  "duration": 6269164791,
+  "duration": 7142522174,
   "status": "passed"
 });
 formatter.scenario({
@@ -213,7 +213,7 @@ formatter.match({
   "location": "Tourism.I_enter_a_username(String)"
 });
 formatter.result({
-  "duration": 122177306,
+  "duration": 115328040,
   "status": "passed"
 });
 formatter.match({
@@ -226,14 +226,14 @@ formatter.match({
   "location": "Tourism.I_enter_a_password(String)"
 });
 formatter.result({
-  "duration": 98429419,
+  "duration": 96074275,
   "status": "passed"
 });
 formatter.match({
   "location": "Tourism.I_click_sign_in_button()"
 });
 formatter.result({
-  "duration": 3169515856,
+  "duration": 3180795035,
   "status": "passed"
 });
 formatter.match({
@@ -246,11 +246,11 @@ formatter.match({
   "location": "LogOn.login_results_must_be(String)"
 });
 formatter.result({
-  "duration": 50357013,
+  "duration": 32026936,
   "status": "passed"
 });
 formatter.after({
-  "duration": 765499481,
+  "duration": 677220236,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -391,7 +391,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6002071403,
+  "duration": 7172702110,
   "status": "passed"
 });
 formatter.scenario({
@@ -524,53 +524,130 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Register.click_the_REGISTER_button()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 275254,
+  "status": "passed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "carlos",
+      "offset": 20
+    }
+  ],
+  "location": "Register.i_enter_a_firstname(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 447404,
+  "error_message": "java.lang.NullPointerException\r\n\tat steps.Register.i_enter_a_firstname(Register.java:33)\r\n\tat ✽.And I enter a firstname carlos(src/test/java/features/tourism.feature:19)\r\n",
+  "status": "failed"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "perez",
+      "offset": 19
+    }
+  ],
+  "location": "Register.i_enter_a_lastname(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "42289758",
+      "offset": 16
+    }
+  ],
+  "location": "Register.i_enter_a_phone(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "jg@gmail.com",
+      "offset": 16
+    }
+  ],
+  "location": "Register.i_enter_a_email(String)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "1",
+      "offset": 16
+    },
+    {
+      "val": "1",
+      "offset": 25
+    }
+  ],
+  "location": "Register.i_enter_a_adress_Abalbin(int,int)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 16
+    },
+    {
+      "val": "2",
+      "offset": 24
+    }
+  ],
+  "location": "Register.i_enter_a_adress_balbin(int,int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Register.i_enter_a_city_BsAs()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Register.i_enter_a_state_BsAs()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1888",
+      "offset": 21
+    }
+  ],
+  "location": "Register.i_enter_a_postalCode(int)"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Register.i_enter_a_country_ARGENTINA()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Register.i_enter_a_user_pepe()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -584,20 +661,26 @@ formatter.match({
 formatter.result({
   "status": "skipped"
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "location": "Register.i_enter_a_cPassword_peperoni()"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
-formatter.match({});
+formatter.match({
+  "location": "Register.i_click_SUBMIT_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.match({
+  "location": "Register.register_result_must_be_succes()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 773623206,
+  "duration": 882880945,
   "status": "passed"
 });
 });

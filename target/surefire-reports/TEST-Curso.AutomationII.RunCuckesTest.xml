@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="Curso.AutomationII.RunCuckesTest" time="39.547" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="Curso.AutomationII.RunCuckesTest" time="48.352" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Users\user\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\OpenVPN\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files (x86)\NUnit.org\nunit-console\;C:\Users\user\Documents\Visual Studio 2017\Projects\XoomEnergy\packages\ReportUnit.1.5.0-beta1\tools;C:\Users\user\Documents\Visual Studio 2017\Projects\XoomEnergy\packages\NUnitOrange.2.1\tools;C:\Users\user\apache-maven-3.5.0\bin;C:\Users\user\gradle-4.3\bin;C:\Users\user\AppData\Local\Android\sdk\platform-tools;ANDROID_HOME;ANDROID_HOME\tools;C:\Ruby24-x64\bin;C:\Users\user\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python36-32\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\npm;C:\Program Files (x86)\NUnit.org\nunit-console\;C:\Users\user\Documents\Visual Studio 2017\Projects\XoomEnergy\packages\ReportUnit.1.5.0-beta1\tools;C:\Users\user\Documents\Visual Studio 2017\Projects\XoomEnergy\packages\NUnitOrange.2.1\tools;C:\Users\user\apache-maven-3.5.0\bin;C:\Users\user\gradle-4.3\bin;C:\Users\user\AppData\Local\Android\sdk\platform-tools;ANDROID_HOME;ANDROID_HOME\tools;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\OpenVPN\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\nodejs\;C:\Program Files (x86)\NUnit.org\nunit-console\;C:\Users\user\Documents\Visual Studio 2017\Projects\XoomEnergy\packages\ReportUnit.1.5.0-beta1\tools;C:\Users\user\Documents\Visual Studio 2017\Projects\XoomEnergy\packages\NUnitOrange.2.1\tools;C:\Users\user\apache-maven-3.5.0\bin;C:\Users\user\gradle-4.3\bin;C:\Users\user\AppData\Local\Android\sdk\platform-tools;ANDROID_HOME;ANDROID_HOME\tools;C:\Ruby24-x64\bin;C:\Users\user\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python36-32\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\npm;C:\Program Files (x86)\NUnit.org\nunit-console\;C:\Users\user\Documents\Visual Studio 2017\Projects\XoomEnergy\packages\ReportUnit.1.5.0-beta1\tools;C:\Users\user\Documents\Visual Studio 2017\Projects\XoomEnergy\packages\NUnitOrange.2.1\tools;C:\Users\user\apache-maven-3.5.0\bin;C:\Users\user\gradle-4.3\bin;C:\Users\user\AppData\Local\Android\sdk\platform-tools;ANDROID_HOME;ANDROID_HOME\tools;C:\Program Files\NASM;;."/>
     <property name="maven.conf" value="C:\Users\user\apache-maven-3.5.0\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -65,7 +65,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Curso.AutomationII.RunCuckesTest" name="feature" time="39.547">
+  <testcase classname="Curso.AutomationII.RunCuckesTest" name="feature" time="48.352">
     <failure message="java.lang.AssertionError: expected [true] but found [false]" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
@@ -173,34 +173,38 @@ Feature: Curso de automation
     Examples: 
 
   Scenario Outline: Register a new user in the site &amp;#27;[90m# src/test/java/features/tourism.feature:37&amp;#27;[0m
-    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mclick the REGISTER button&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mI enter a firstname carlos&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mI enter a lastname perez&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mI enter a phone 42289758&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mI enter a email jg@gmail.com&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mI enter a adress1 Abalbin1&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mI enter a adress2 balbin2&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mI enter a city BsAs&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mI enter a state BsAs&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mI enter a postalCode 1888&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mI enter a country ARGENTINA&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mI enter a user pepe&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mclick the REGISTER button&amp;#27;[0m                 &amp;#27;[90m# Register.click_the_REGISTER_button()&amp;#27;[0m
+    &amp;#27;[31mAnd &amp;#27;[0m&amp;#27;[31mI enter a firstname &amp;#27;[0m&amp;#27;[31m&amp;#27;[1mcarlos&amp;#27;[0m                  &amp;#27;[90m# Register.i_enter_a_firstname(String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+      	at steps.Register.i_enter_a_firstname(Register.java:33)
+      	at ?.And I enter a firstname carlos(src/test/java/features/tourism.feature:19)
+      &amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI enter a lastname &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mperez&amp;#27;[0m                    &amp;#27;[90m# Register.i_enter_a_lastname(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI enter a phone &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m42289758&amp;#27;[0m                    &amp;#27;[90m# Register.i_enter_a_phone(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI enter a email &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mjg@gmail.com&amp;#27;[0m                &amp;#27;[90m# Register.i_enter_a_email(String)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI enter a adress&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m&amp;#27;[36m Abalbin&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1&amp;#27;[0m                  &amp;#27;[90m# Register.i_enter_a_adress_Abalbin(int,int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI enter a adress&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m&amp;#27;[36m balbin&amp;#27;[0m&amp;#27;[36m&amp;#27;[1m2&amp;#27;[0m                   &amp;#27;[90m# Register.i_enter_a_adress_balbin(int,int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI enter a city BsAs&amp;#27;[0m                         &amp;#27;[90m# Register.i_enter_a_city_BsAs()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI enter a state BsAs&amp;#27;[0m                        &amp;#27;[90m# Register.i_enter_a_state_BsAs()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI enter a postalCode &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m1888&amp;#27;[0m                   &amp;#27;[90m# Register.i_enter_a_postalCode(int)&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI enter a country ARGENTINA&amp;#27;[0m                 &amp;#27;[90m# Register.i_enter_a_country_ARGENTINA()&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI enter a user pepe&amp;#27;[0m                         &amp;#27;[90m# Register.i_enter_a_user_pepe()&amp;#27;[0m
     &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI enter a password &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mpeperoni&amp;#27;[0m                 &amp;#27;[90m# Tourism.I_enter_a_password(String)&amp;#27;[0m
-    &amp;#27;[33mAnd &amp;#27;[0m&amp;#27;[33mI enter a cPassword peperoni&amp;#27;[0m
-    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mI click SUBMIT button&amp;#27;[0m
-    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mregister result must be succes&amp;#27;[0m
+    &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI enter a cPassword peperoni&amp;#27;[0m                &amp;#27;[90m# Register.i_enter_a_cPassword_peperoni()&amp;#27;[0m
+    &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI click SUBMIT button&amp;#27;[0m                      &amp;#27;[90m# Register.i_click_SUBMIT_button()&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mregister result must be succes&amp;#27;[0m             &amp;#27;[90m# Register.register_result_must_be_succes()&amp;#27;[0m
 </system-out>
-    <system-err>Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 48797
+    <system-err>Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 32978
 Only local connections are allowed.
-dic 21, 2017 2:32:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+dic 25, 2017 8:20:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
-Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 48911
+Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 1385
 Only local connections are allowed.
-dic 21, 2017 2:32:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+dic 25, 2017 8:20:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
-Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 18304
+Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 3548
 Only local connections are allowed.
-dic 21, 2017 2:33:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+dic 25, 2017 8:20:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
 </system-err>
   </testcase>

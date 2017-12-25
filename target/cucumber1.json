@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 8215077386,
+              "duration": 15222499705,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 804975565,
+              "duration": 1167752208,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1341368573,
+              "duration": 960284621,
               "status": "passed"
             },
             "line": 5,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 130333221,
+              "duration": 68946389,
               "status": "passed"
             },
             "line": 6,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 1366125101,
+              "duration": 1230201210,
               "status": "passed"
             },
             "line": 7,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 10104495737,
+              "duration": 10056629952,
               "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat pageObjects.ReservationPage.verifyreservationPage(ReservationPage.java:21)\r\n\tat steps.LogOn.login_results_must_be(LogOn.java:29)\r\n\tat ✽.Then login result must be badLogin(src/test/java/features/tourism.feature:8)\r\n",
               "status": "failed"
             },
@@ -114,7 +114,7 @@
         "before": [
           {
             "result": {
-              "duration": 6269164791,
+              "duration": 7142522174,
               "status": "passed"
             },
             "match": {
@@ -129,7 +129,7 @@
         "after": [
           {
             "result": {
-              "duration": 765499481,
+              "duration": 677220236,
               "status": "passed"
             },
             "match": {
@@ -142,7 +142,7 @@
         "steps": [
           {
             "result": {
-              "duration": 122177306,
+              "duration": 115328040,
               "status": "passed"
             },
             "line": 5,
@@ -163,7 +163,7 @@
           },
           {
             "result": {
-              "duration": 98429419,
+              "duration": 96074275,
               "status": "passed"
             },
             "line": 6,
@@ -184,7 +184,7 @@
           },
           {
             "result": {
-              "duration": 3169515856,
+              "duration": 3180795035,
               "status": "passed"
             },
             "line": 7,
@@ -196,7 +196,7 @@
           },
           {
             "result": {
-              "duration": 50357013,
+              "duration": 32026936,
               "status": "passed"
             },
             "line": 8,
@@ -221,7 +221,7 @@
         "before": [
           {
             "result": {
-              "duration": 6002071403,
+              "duration": 7172702110,
               "status": "passed"
             },
             "match": {
@@ -236,7 +236,7 @@
         "after": [
           {
             "result": {
-              "duration": 773623206,
+              "duration": 882880945,
               "status": "passed"
             },
             "match": {
@@ -249,20 +249,33 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 275254,
+              "status": "passed"
             },
             "line": 18,
             "name": "click the REGISTER button",
-            "match": {},
+            "match": {
+              "location": "Register.click_the_REGISTER_button()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 447404,
+              "error_message": "java.lang.NullPointerException\r\n\tat steps.Register.i_enter_a_firstname(Register.java:33)\r\n\tat ✽.And I enter a firstname carlos(src/test/java/features/tourism.feature:19)\r\n",
+              "status": "failed"
             },
             "line": 19,
             "name": "I enter a firstname carlos",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "carlos",
+                  "offset": 20
+                }
+              ],
+              "location": "Register.i_enter_a_firstname(String)"
+            },
             "matchedColumns": [
               0
             ],
@@ -270,11 +283,19 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 20,
             "name": "I enter a lastname perez",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "perez",
+                  "offset": 19
+                }
+              ],
+              "location": "Register.i_enter_a_lastname(String)"
+            },
             "matchedColumns": [
               1
             ],
@@ -282,11 +303,19 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 21,
             "name": "I enter a phone 42289758",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "42289758",
+                  "offset": 16
+                }
+              ],
+              "location": "Register.i_enter_a_phone(String)"
+            },
             "matchedColumns": [
               2
             ],
@@ -294,11 +323,19 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 22,
             "name": "I enter a email jg@gmail.com",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "jg@gmail.com",
+                  "offset": 16
+                }
+              ],
+              "location": "Register.i_enter_a_email(String)"
+            },
             "matchedColumns": [
               3
             ],
@@ -306,11 +343,23 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 23,
             "name": "I enter a adress1 Abalbin1",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 16
+                },
+                {
+                  "val": "1",
+                  "offset": 25
+                }
+              ],
+              "location": "Register.i_enter_a_adress_Abalbin(int,int)"
+            },
             "matchedColumns": [
               4
             ],
@@ -318,11 +367,23 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 24,
             "name": "I enter a adress2 balbin2",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 16
+                },
+                {
+                  "val": "2",
+                  "offset": 24
+                }
+              ],
+              "location": "Register.i_enter_a_adress_balbin(int,int)"
+            },
             "matchedColumns": [
               5
             ],
@@ -330,11 +391,13 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 25,
             "name": "I enter a city BsAs",
-            "match": {},
+            "match": {
+              "location": "Register.i_enter_a_city_BsAs()"
+            },
             "matchedColumns": [
               6
             ],
@@ -342,11 +405,13 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 26,
             "name": "I enter a state BsAs",
-            "match": {},
+            "match": {
+              "location": "Register.i_enter_a_state_BsAs()"
+            },
             "matchedColumns": [
               7
             ],
@@ -354,11 +419,19 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 27,
             "name": "I enter a postalCode 1888",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "1888",
+                  "offset": 21
+                }
+              ],
+              "location": "Register.i_enter_a_postalCode(int)"
+            },
             "matchedColumns": [
               8
             ],
@@ -366,11 +439,13 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 28,
             "name": "I enter a country ARGENTINA",
-            "match": {},
+            "match": {
+              "location": "Register.i_enter_a_country_ARGENTINA()"
+            },
             "matchedColumns": [
               9
             ],
@@ -378,11 +453,13 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 29,
             "name": "I enter a user pepe",
-            "match": {},
+            "match": {
+              "location": "Register.i_enter_a_user_pepe()"
+            },
             "matchedColumns": [
               10
             ],
@@ -410,11 +487,13 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 31,
             "name": "I enter a cPassword peperoni",
-            "match": {},
+            "match": {
+              "location": "Register.i_enter_a_cPassword_peperoni()"
+            },
             "matchedColumns": [
               12
             ],
@@ -422,20 +501,24 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 32,
             "name": "I click SUBMIT button",
-            "match": {},
+            "match": {
+              "location": "Register.i_click_SUBMIT_button()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
             "line": 33,
             "name": "register result must be succes",
-            "match": {},
+            "match": {
+              "location": "Register.register_result_must_be_succes()"
+            },
             "matchedColumns": [
               13
             ],
