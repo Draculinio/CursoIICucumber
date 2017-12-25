@@ -17,7 +17,7 @@ public class Context {
 		}else {
 			System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver");
 		}*/
-		System.setProperty("webdriver.chrome.driver", "Drivers/chromelinux");
+		System.setProperty("webdriver.chrome.driver", "Drivers/chromeLinux");
 		driver = new ChromeDriver();
 	}
 	
