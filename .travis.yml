@@ -1,5 +1,5 @@
 language: java
 sudo: false
 script: mvn package
-include:
-    - os: windows
+os:
+   -windows
