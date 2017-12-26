@@ -21,7 +21,7 @@ public class LogOn {
 	@Then("^login result must be (.*)")
 	  public void login_results_must_be(String result) {
 		
-		if(result.toUpperCase()=="BADLOGIN") {
+		if(result.toUpperCase().contains("BADLOGIN")) {
 			signOnPage = new SignOnPage(driver);
 			signOnPage.verifyInPage();
 		}else {

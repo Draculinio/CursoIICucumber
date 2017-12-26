@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="Curso.AutomationII.RunCuckesTest" time="35.626" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="Curso.AutomationII.RunCuckesTest" time="45.896" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -65,7 +65,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Curso.AutomationII.RunCuckesTest" name="feature" time="35.626">
+  <testcase classname="Curso.AutomationII.RunCuckesTest" name="feature" time="45.896">
     <failure message="java.lang.AssertionError: expected [true] but found [false]" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
@@ -194,17 +194,17 @@ Feature: Curso de automation
     &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI click SUBMIT button&amp;#27;[0m                      &amp;#27;[90m# Register.i_click_SUBMIT_button()&amp;#27;[0m
     &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mregister result must be succes&amp;#27;[0m             &amp;#27;[90m# Register.register_result_must_be_succes()&amp;#27;[0m
 </system-out>
-    <system-err>Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 7246
+    <system-err>Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 6126
 Only local connections are allowed.
-dic 26, 2017 1:17:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+dic 26, 2017 1:02:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
-Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 31028
+Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 18842
 Only local connections are allowed.
-dic 26, 2017 1:18:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+dic 26, 2017 1:03:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
-Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 47897
+Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 33978
 Only local connections are allowed.
-dic 26, 2017 1:18:20 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+dic 26, 2017 1:03:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
 </system-err>
   </testcase>

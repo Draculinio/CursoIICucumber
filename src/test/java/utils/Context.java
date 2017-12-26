@@ -6,10 +6,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Context {
 	private WebDriver driver;
 
-	/*public Context() {
-		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
-	}*/
-	
 	public void initializeDriver() {
 		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
 		driver = new ChromeDriver();

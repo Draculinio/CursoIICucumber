@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Curso.AutomationII.RunCuckesTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 36.647 sec <<< FAILURE!
-feature(Curso.AutomationII.RunCuckesTest)  Time elapsed: 35.626 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 47.499 sec <<< FAILURE!
+feature(Curso.AutomationII.RunCuckesTest)  Time elapsed: 45.896 sec  <<< FAILURE!
 cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)

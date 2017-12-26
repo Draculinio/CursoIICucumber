@@ -71,7 +71,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6774211713,
+  "duration": 10836060756,
   "status": "passed"
 });
 formatter.scenario({
@@ -121,7 +121,7 @@ formatter.match({
   "location": "Tourism.I_enter_a_username(String)"
 });
 formatter.result({
-  "duration": 197328452,
+  "duration": 749079650,
   "status": "passed"
 });
 formatter.match({
@@ -134,14 +134,14 @@ formatter.match({
   "location": "Tourism.I_enter_a_password(String)"
 });
 formatter.result({
-  "duration": 73801585,
+  "duration": 79235279,
   "status": "passed"
 });
 formatter.match({
   "location": "Tourism.I_click_sign_in_button()"
 });
 formatter.result({
-  "duration": 1202862918,
+  "duration": 1290195323,
   "status": "passed"
 });
 formatter.match({
@@ -154,16 +154,16 @@ formatter.match({
   "location": "LogOn.login_results_must_be(String)"
 });
 formatter.result({
-  "duration": 10095994498,
+  "duration": 10052769402,
   "error_message": "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat pageObjects.ReservationPage.verifyreservationPage(ReservationPage.java:21)\r\n\tat steps.LogOn.login_results_must_be(LogOn.java:29)\r\n\tat ✽.Then login result must be badLogin(src/test/java/features/tourism.feature:8)\r\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 815503969,
+  "duration": 920245004,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5130158616,
+  "duration": 6416597426,
   "status": "passed"
 });
 formatter.scenario({
@@ -213,7 +213,7 @@ formatter.match({
   "location": "Tourism.I_enter_a_username(String)"
 });
 formatter.result({
-  "duration": 101727240,
+  "duration": 111391445,
   "status": "passed"
 });
 formatter.match({
@@ -226,14 +226,14 @@ formatter.match({
   "location": "Tourism.I_enter_a_password(String)"
 });
 formatter.result({
-  "duration": 74543837,
+  "duration": 95547561,
   "status": "passed"
 });
 formatter.match({
   "location": "Tourism.I_click_sign_in_button()"
 });
 formatter.result({
-  "duration": 3166305027,
+  "duration": 3655616086,
   "status": "passed"
 });
 formatter.match({
@@ -246,11 +246,11 @@ formatter.match({
   "location": "LogOn.login_results_must_be(String)"
 });
 formatter.result({
-  "duration": 42966638,
+  "duration": 28510686,
   "status": "passed"
 });
 formatter.after({
-  "duration": 799722134,
+  "duration": 718384662,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -391,7 +391,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6001131340,
+  "duration": 9934972477,
   "status": "passed"
 });
 formatter.scenario({
@@ -528,7 +528,7 @@ formatter.match({
   "location": "Register.click_the_REGISTER_button()"
 });
 formatter.result({
-  "duration": 287850,
+  "duration": 178215,
   "status": "passed"
 });
 formatter.match({
@@ -541,7 +541,7 @@ formatter.match({
   "location": "Register.i_enter_a_firstname(String)"
 });
 formatter.result({
-  "duration": 465599,
+  "duration": 262657,
   "error_message": "java.lang.NullPointerException\r\n\tat steps.Register.i_enter_a_firstname(Register.java:33)\r\n\tat ✽.And I enter a firstname carlos(src/test/java/features/tourism.feature:19)\r\n",
   "status": "failed"
 });
@@ -680,7 +680,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 807662037,
+  "duration": 692044748,
   "status": "passed"
 });
 });
