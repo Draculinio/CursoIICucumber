@@ -3,20 +3,16 @@ package utils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
-import pageObjects.HomePage;
-
 public class Context {
 	private WebDriver driver;
 
-	public Context() {
-		if (System.getProperty("os.name").startsWith("Windows")) {
-			System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
-			
-		}else {
-			System.setProperty("webdriver.chrome.driver", "Drivers/chromeLinux");
-		}
+	/*public Context() {
+		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
+	}*/
+	
+	public void initializeDriver() {
+		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
+		driver = new ChromeDriver();
 	}
 	
 	public WebDriver getDriver() {

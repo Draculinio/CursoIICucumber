@@ -1,0 +1,11 @@
+steps\LogOn.class
+steps\Common.class
+steps\Tourism.class
+pageObjects\RegisterPage.class
+utils\PicoDependencyInjector.class
+pageObjects\ReservationPage.class
+pageObjects\HomePage.class
+pageObjects\SignOnPage.class
+utils\Context.class
+Curso\AutomationII\RunCuckesTest.class
+steps\Register.class
