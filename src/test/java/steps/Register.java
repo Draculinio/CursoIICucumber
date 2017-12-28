@@ -21,11 +21,12 @@ public class Register {
 		this.context = context;
 		driver = context.getDriver();
 		homePage = new HomePage(driver);
+		register = new RegisterPage(driver);
 	}
 
 	@Given("^click the REGISTER button$")
 	public void click_the_REGISTER_button() throws Throwable {
-
+		homePage.goToRegisterPage();
 	}
 
 	@Given("^I enter a firstname (.*)")

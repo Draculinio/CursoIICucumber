@@ -9,7 +9,6 @@ public class Common {
 	
 	public Common(Context context) {
 		this.context = context;
-		//driver= context.getDriver();
 	}
 	
 	@Before

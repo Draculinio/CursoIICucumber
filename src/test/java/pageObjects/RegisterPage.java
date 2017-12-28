@@ -23,6 +23,10 @@ public class RegisterPage {
 	private By passwordLocator = By.name("password");
 	private By confirmPasswordLocator = By.name("confirmPassword	");
 	private By emailLocator = By.name("userName");
+	
+	public RegisterPage(WebDriver driver) {
+		this.driver = driver;
+	}
 
 	public void enterFirsName(String name) {
 		driver.findElement(firstNameLocator).sendKeys(name);
