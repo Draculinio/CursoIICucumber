@@ -71,7 +71,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6572544515,
+  "duration": 13757797261,
   "status": "passed"
 });
 formatter.scenario({
@@ -121,7 +121,7 @@ formatter.match({
   "location": "Tourism.I_enter_a_username(String)"
 });
 formatter.result({
-  "duration": 213515704,
+  "duration": 9279935357,
   "status": "passed"
 });
 formatter.match({
@@ -134,14 +134,14 @@ formatter.match({
   "location": "Tourism.I_enter_a_password(String)"
 });
 formatter.result({
-  "duration": 82846702,
+  "duration": 73311260,
   "status": "passed"
 });
 formatter.match({
   "location": "Tourism.I_click_sign_in_button()"
 });
 formatter.result({
-  "duration": 1200546589,
+  "duration": 1460900677,
   "status": "passed"
 });
 formatter.match({
@@ -154,15 +154,15 @@ formatter.match({
   "location": "LogOn.login_results_must_be(String)"
 });
 formatter.result({
-  "duration": 53988916,
+  "duration": 233804235,
   "status": "passed"
 });
 formatter.after({
-  "duration": 750004782,
+  "duration": 1083789563,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5804174246,
+  "duration": 6421169903,
   "status": "passed"
 });
 formatter.scenario({
@@ -212,7 +212,7 @@ formatter.match({
   "location": "Tourism.I_enter_a_username(String)"
 });
 formatter.result({
-  "duration": 162425816,
+  "duration": 105981543,
   "status": "passed"
 });
 formatter.match({
@@ -225,14 +225,14 @@ formatter.match({
   "location": "Tourism.I_enter_a_password(String)"
 });
 formatter.result({
-  "duration": 92569223,
+  "duration": 83193802,
   "status": "passed"
 });
 formatter.match({
   "location": "Tourism.I_click_sign_in_button()"
 });
 formatter.result({
-  "duration": 3220608851,
+  "duration": 3182557125,
   "status": "passed"
 });
 formatter.match({
@@ -245,11 +245,11 @@ formatter.match({
   "location": "LogOn.login_results_must_be(String)"
 });
 formatter.result({
-  "duration": 55716950,
+  "duration": 36397871,
   "status": "passed"
 });
 formatter.after({
-  "duration": 712694841,
+  "duration": 692217831,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -390,7 +390,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5035252536,
+  "duration": 6602032585,
   "status": "passed"
 });
 formatter.scenario({
@@ -527,7 +527,7 @@ formatter.match({
   "location": "Register.click_the_REGISTER_button()"
 });
 formatter.result({
-  "duration": 921071231,
+  "duration": 718879652,
   "status": "passed"
 });
 formatter.match({
@@ -540,7 +540,7 @@ formatter.match({
   "location": "Register.i_enter_a_firstname(String)"
 });
 formatter.result({
-  "duration": 200257339,
+  "duration": 165877684,
   "status": "passed"
 });
 formatter.match({
@@ -553,7 +553,7 @@ formatter.match({
   "location": "Register.i_enter_a_lastname(String)"
 });
 formatter.result({
-  "duration": 148438262,
+  "duration": 89658531,
   "status": "passed"
 });
 formatter.match({
@@ -566,7 +566,7 @@ formatter.match({
   "location": "Register.i_enter_a_phone(String)"
 });
 formatter.result({
-  "duration": 210708582,
+  "duration": 104485376,
   "status": "passed"
 });
 formatter.match({
@@ -579,7 +579,7 @@ formatter.match({
   "location": "Register.i_enter_a_email(String)"
 });
 formatter.result({
-  "duration": 198673464,
+  "duration": 126856505,
   "status": "passed"
 });
 formatter.match({
@@ -596,7 +596,7 @@ formatter.match({
   "location": "Register.i_enter_a_adress_Abalbin(int,int)"
 });
 formatter.result({
-  "duration": 1936107,
+  "duration": 1042699,
   "status": "passed"
 });
 formatter.match({
@@ -613,21 +613,21 @@ formatter.match({
   "location": "Register.i_enter_a_adress_balbin(int,int)"
 });
 formatter.result({
-  "duration": 200609,
+  "duration": 86309,
   "status": "passed"
 });
 formatter.match({
   "location": "Register.i_enter_a_city_BsAs()"
 });
 formatter.result({
-  "duration": 61583,
+  "duration": 46186,
   "status": "passed"
 });
 formatter.match({
   "location": "Register.i_enter_a_state_BsAs()"
 });
 formatter.result({
-  "duration": 50852,
+  "duration": 36389,
   "status": "passed"
 });
 formatter.match({
@@ -640,21 +640,21 @@ formatter.match({
   "location": "Register.i_enter_a_postalCode(int)"
 });
 formatter.result({
-  "duration": 171684,
+  "duration": 118965,
   "status": "passed"
 });
 formatter.match({
   "location": "Register.i_enter_a_country_ARGENTINA()"
 });
 formatter.result({
-  "duration": 50852,
+  "duration": 36856,
   "status": "passed"
 });
 formatter.match({
   "location": "Register.i_enter_a_user_pepe()"
 });
 formatter.result({
-  "duration": 55984,
+  "duration": 23793,
   "status": "passed"
 });
 formatter.match({
@@ -667,32 +667,224 @@ formatter.match({
   "location": "Tourism.I_enter_a_password(String)"
 });
 formatter.result({
-  "duration": 139071704,
+  "duration": 94434883,
   "status": "passed"
 });
 formatter.match({
   "location": "Register.i_enter_a_cPassword_peperoni()"
 });
 formatter.result({
-  "duration": 48519,
+  "duration": 41521,
   "status": "passed"
 });
 formatter.match({
   "location": "Register.i_click_SUBMIT_button()"
 });
 formatter.result({
-  "duration": 38722,
+  "duration": 28925,
   "status": "passed"
 });
 formatter.match({
   "location": "Register.register_result_must_be_succes()"
 });
 formatter.result({
-  "duration": 28459,
+  "duration": 27992,
   "status": "passed"
 });
 formatter.after({
-  "duration": 776782303,
+  "duration": 799334446,
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "line": 39,
+  "name": "Reserve a flight",
+  "description": "",
+  "id": "curso-de-automation;reserve-a-flight",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 40,
+  "name": "I log in with \u003cuser\u003e and \u003cpassword\u003e",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 41,
+  "name": "I select Flight type \u003cflight_type\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 42,
+  "name": "I select quantity of passengers \u003cquantity_passengers\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 43,
+  "name": "I select departure from: \u003cdeparturing\u003e on date \u003cdeparture_month\u003e, \u003cdeparture_day\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 44,
+  "name": "I select arrival to: \u003carriving\u003e returning on date \u003carrival_month\u003e, \u003carrival_day\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 45,
+  "name": "I select Service class \u003cservice_class\u003e",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 46,
+  "name": "I select airline \u003cairline\u003e",
+  "keyword": "And "
+});
+formatter.examples({
+  "line": 48,
+  "name": "",
+  "description": "",
+  "id": "curso-de-automation;reserve-a-flight;",
+  "rows": [
+    {
+      "cells": [
+        "user",
+        "password",
+        "flight_type",
+        "quantity_passengers",
+        "departing",
+        "departure_month",
+        "departure_day",
+        "arriving",
+        "arrival_month",
+        "arrival_day",
+        "service_class",
+        "airline"
+      ],
+      "line": 50,
+      "id": "curso-de-automation;reserve-a-flight;;1"
+    },
+    {
+      "cells": [
+        "mercury",
+        "mercury",
+        "One Way",
+        "2",
+        "Portland",
+        "May",
+        "9",
+        "Frankfurt",
+        "February",
+        "28",
+        "First class",
+        "Unified Airlines"
+      ],
+      "line": 51,
+      "id": "curso-de-automation;reserve-a-flight;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 6976832035,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 51,
+  "name": "Reserve a flight",
+  "description": "",
+  "id": "curso-de-automation;reserve-a-flight;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 40,
+  "name": "I log in with mercury and mercury",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 41,
+  "name": "I select Flight type One Way",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 42,
+  "name": "I select quantity of passengers 2",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 43,
+  "name": "I select departure from: \u003cdeparturing\u003e on date May, 9",
+  "matchedColumns": [
+    5,
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 44,
+  "name": "I select arrival to: Frankfurt returning on date February, 28",
+  "matchedColumns": [
+    7,
+    8,
+    9
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 45,
+  "name": "I select Service class First class",
+  "matchedColumns": [
+    10
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 46,
+  "name": "I select airline Unified Airlines",
+  "matchedColumns": [
+    11
+  ],
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.after({
+  "duration": 881301735,
   "status": "passed"
 });
 });

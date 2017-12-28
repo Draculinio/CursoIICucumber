@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 6572544515,
+              "duration": 13757797261,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 750004782,
+              "duration": 1083789563,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 213515704,
+              "duration": 9279935357,
               "status": "passed"
             },
             "line": 5,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 82846702,
+              "duration": 73311260,
               "status": "passed"
             },
             "line": 6,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 1200546589,
+              "duration": 1460900677,
               "status": "passed"
             },
             "line": 7,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 53988916,
+              "duration": 233804235,
               "status": "passed"
             },
             "line": 8,
@@ -113,7 +113,7 @@
         "before": [
           {
             "result": {
-              "duration": 5804174246,
+              "duration": 6421169903,
               "status": "passed"
             },
             "match": {
@@ -128,7 +128,7 @@
         "after": [
           {
             "result": {
-              "duration": 712694841,
+              "duration": 692217831,
               "status": "passed"
             },
             "match": {
@@ -141,7 +141,7 @@
         "steps": [
           {
             "result": {
-              "duration": 162425816,
+              "duration": 105981543,
               "status": "passed"
             },
             "line": 5,
@@ -162,7 +162,7 @@
           },
           {
             "result": {
-              "duration": 92569223,
+              "duration": 83193802,
               "status": "passed"
             },
             "line": 6,
@@ -183,7 +183,7 @@
           },
           {
             "result": {
-              "duration": 3220608851,
+              "duration": 3182557125,
               "status": "passed"
             },
             "line": 7,
@@ -195,7 +195,7 @@
           },
           {
             "result": {
-              "duration": 55716950,
+              "duration": 36397871,
               "status": "passed"
             },
             "line": 8,
@@ -220,7 +220,7 @@
         "before": [
           {
             "result": {
-              "duration": 5035252536,
+              "duration": 6602032585,
               "status": "passed"
             },
             "match": {
@@ -235,7 +235,7 @@
         "after": [
           {
             "result": {
-              "duration": 776782303,
+              "duration": 799334446,
               "status": "passed"
             },
             "match": {
@@ -248,7 +248,7 @@
         "steps": [
           {
             "result": {
-              "duration": 921071231,
+              "duration": 718879652,
               "status": "passed"
             },
             "line": 18,
@@ -260,7 +260,7 @@
           },
           {
             "result": {
-              "duration": 200257339,
+              "duration": 165877684,
               "status": "passed"
             },
             "line": 19,
@@ -281,7 +281,7 @@
           },
           {
             "result": {
-              "duration": 148438262,
+              "duration": 89658531,
               "status": "passed"
             },
             "line": 20,
@@ -302,7 +302,7 @@
           },
           {
             "result": {
-              "duration": 210708582,
+              "duration": 104485376,
               "status": "passed"
             },
             "line": 21,
@@ -323,7 +323,7 @@
           },
           {
             "result": {
-              "duration": 198673464,
+              "duration": 126856505,
               "status": "passed"
             },
             "line": 22,
@@ -344,7 +344,7 @@
           },
           {
             "result": {
-              "duration": 1936107,
+              "duration": 1042699,
               "status": "passed"
             },
             "line": 23,
@@ -369,7 +369,7 @@
           },
           {
             "result": {
-              "duration": 200609,
+              "duration": 86309,
               "status": "passed"
             },
             "line": 24,
@@ -394,7 +394,7 @@
           },
           {
             "result": {
-              "duration": 61583,
+              "duration": 46186,
               "status": "passed"
             },
             "line": 25,
@@ -409,7 +409,7 @@
           },
           {
             "result": {
-              "duration": 50852,
+              "duration": 36389,
               "status": "passed"
             },
             "line": 26,
@@ -424,7 +424,7 @@
           },
           {
             "result": {
-              "duration": 171684,
+              "duration": 118965,
               "status": "passed"
             },
             "line": 27,
@@ -445,7 +445,7 @@
           },
           {
             "result": {
-              "duration": 50852,
+              "duration": 36856,
               "status": "passed"
             },
             "line": 28,
@@ -460,7 +460,7 @@
           },
           {
             "result": {
-              "duration": 55984,
+              "duration": 23793,
               "status": "passed"
             },
             "line": 29,
@@ -475,7 +475,7 @@
           },
           {
             "result": {
-              "duration": 139071704,
+              "duration": 94434883,
               "status": "passed"
             },
             "line": 30,
@@ -496,7 +496,7 @@
           },
           {
             "result": {
-              "duration": 48519,
+              "duration": 41521,
               "status": "passed"
             },
             "line": 31,
@@ -511,7 +511,7 @@
           },
           {
             "result": {
-              "duration": 38722,
+              "duration": 28925,
               "status": "passed"
             },
             "line": 32,
@@ -523,7 +523,7 @@
           },
           {
             "result": {
-              "duration": 28459,
+              "duration": 27992,
               "status": "passed"
             },
             "line": 33,
@@ -535,6 +535,126 @@
               13
             ],
             "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6976832035,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.InitializeTest()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "Reserve a flight",
+        "description": "",
+        "id": "curso-de-automation;reserve-a-flight;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 881301735,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Common.TearDownTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 40,
+            "name": "I log in with mercury and mercury",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41,
+            "name": "I select Flight type One Way",
+            "match": {},
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42,
+            "name": "I select quantity of passengers 2",
+            "match": {},
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 43,
+            "name": "I select departure from: \u003cdeparturing\u003e on date May, 9",
+            "match": {},
+            "matchedColumns": [
+              5,
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 44,
+            "name": "I select arrival to: Frankfurt returning on date February, 28",
+            "match": {},
+            "matchedColumns": [
+              7,
+              8,
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45,
+            "name": "I select Service class First class",
+            "match": {},
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 46,
+            "name": "I select airline Unified Airlines",
+            "match": {},
+            "matchedColumns": [
+              11
+            ],
+            "keyword": "And "
           }
         ]
       }
