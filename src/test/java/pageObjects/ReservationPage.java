@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.openqa.selenium.support.PageFactory;
 
 public class ReservationPage {
 
@@ -32,14 +33,16 @@ public class ReservationPage {
 	}
 
 	public void iSelectFlightType(String flightType) {
-		ArrayList <WebElement> flightTypes = (ArrayList<WebElement>) driver.findElements(By.xpath("//input[@name='tripType']"));
+		//ArrayList <WebElement> flightTypes = (ArrayList<WebElement>) driver.findElements(By.xpath("//input[@name='tripType']"));
 
 		switch (flightType.toLowerCase()) {
 		case "oneway":
-			flightTypes.get(0).click();
+			driver.findElements(By.xpath("//input[@name='tripType']")).get(0).click();
+			//flightTypes.get(0).click();
 			break;
 		default:
-			flightTypes.get(1).click();
+			driver.findElements(By.xpath("//input[@name='tripType']")).get(1).click();
+			//flightTypes.get(1).click();
 			break;
 		}
 

@@ -5,12 +5,14 @@ import org.openqa.selenium.WebDriver;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import pageObjects.HomePage;
+import pageObjects.HomePagePF;
 import pageObjects.SignOnPage;
 import utils.Context;
 import cucumber.api.java.en.Then;
 
 public class Tourism {
-  private HomePage homePage; 
+  //private HomePage homePage; 
+  private HomePagePF homePage;
   private Context context;
   private WebDriver driver;
   
@@ -18,7 +20,8 @@ public class Tourism {
 	  
 	  this.context = context;
 	  driver = context.getDriver();
-	  homePage= new HomePage(driver);
+	  //homePage= new HomePage(driver);
+	  homePage = new HomePagePF(driver);
   }
   
   
