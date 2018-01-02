@@ -20,6 +20,8 @@ public class ReservationPage {
 			"/html/body/div[1]/table/tbody/tr/td[2]/table/tbody/tr[4]/td/table/tbody/tr/td[2]/table/tbody/tr[5]/td/form/table/tbody/tr[1]/td/font/font/b/font/font");
 	private By passengerCount = By.name("passCount");
 	private By quantityPassangers = By.name("passCount");
+	private By flightTripType = By.name("tripType");
+	private By passengers = By.name("passCount");
 
 	public ReservationPage(WebDriver driver) {
 		this.driver = driver;
@@ -33,23 +35,36 @@ public class ReservationPage {
 	}
 
 	public void iSelectFlightType(String flightType) {
-		//ArrayList <WebElement> flightTypes = (ArrayList<WebElement>) driver.findElements(By.xpath("//input[@name='tripType']"));
-
+		//ArrayList <WebElement> flightTypes = (ArrayList<WebElement>) driver.findElements(By.xpath("//input[@name='tripType']"));		
+		
+		
 		switch (flightType.toLowerCase()) {
 		case "oneway":
-			driver.findElements(By.xpath("//input[@name='tripType']")).get(0).click();
-			//flightTypes.get(0).click();
+			
+			driver.findElements(flightTripType).get(1).click();
 			break;
 		default:
-			driver.findElements(By.xpath("//input[@name='tripType']")).get(1).click();
-			//flightTypes.get(1).click();
+			
+			driver.findElements(flightTripType).get(0).click();
 			break;
 		}
-
-	}
+		
+			}
 
 	public void iSelectQuantityPassenger(String quantityPassenger) {
 		Select selectQuantity = new Select(driver.findElement(quantityPassangers));
 		selectQuantity.selectByValue(quantityPassenger);
+	}
+
+	public void selectPassangerQuantity(String optionPassenger) {
+		Select listCountry = new Select(driver.findElement(passengers));
+		listCountry.selectByValue(optionPassenger);
+
+	}
+	
+	public void selectDeparture (String optionDeparture) {
+		Select selectDeparture = new Select(driver.findElement(passengers));
+		selectDeparture.selectByValue(optionDeparture);
+
 	}
 }

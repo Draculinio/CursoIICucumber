@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Curso.AutomationII.RunCuckesTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 57.266 sec <<< FAILURE!
-feature(Curso.AutomationII.RunCuckesTest)  Time elapsed: 55.925 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 34.965 sec <<< FAILURE!
+feature(Curso.AutomationII.RunCuckesTest)  Time elapsed: 33.651 sec  <<< FAILURE!
 cucumber.runtime.CucumberException: java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)

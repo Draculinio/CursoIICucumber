@@ -12,7 +12,7 @@ Examples:
 | pepe    | pepe    | badLogin  |
 | mercury | mercury | goodLogin |
 
-
+@Register
 Scenario Outline: Register a new user in the site
 
 Given click the REGISTER button
@@ -36,6 +36,7 @@ Examples:
 | firstname | lastname | phone 		| email			| adress1  | adress2 | city | state | postalCode | country	 | user | password | cPassword | result |
 | carlos	| perez	   | 42289758 	| jg@gmail.com  | Abalbin1 | balbin2 | BsAs | BsAs  | 1888		 | ARGENTINA | pepe | peperoni | peperoni  | succes |
 
+@Reserve
 Scenario Outline: Reserve a flight
 Given I log in with <user> and <password>
 And I select Flight type <flight_type>
@@ -48,4 +49,4 @@ And I select airline <airline>
 Examples:
 
 | user | password | flight_type | quantity_passengers | departing | departure_month | departure_day | arriving 	| arrival_month | arrival_day | service_class | airline 		 | 
-| mercury | mercury | One Way 	| 			2		  | Portland  | May 			| 		9 		| Frankfurt | February		| 		28	  | First class   | Unified Airlines | 
+| mercury | mercury | OneWay 	| 			2		  | Portland  | May 			| 		9 		| Frankfurt | February		| 		28	  | First class   | Unified Airlines | 

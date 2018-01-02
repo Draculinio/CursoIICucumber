@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 23660263208,
+              "duration": 7149278952,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 1436442285,
+              "duration": 859675658,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 670013721,
+              "duration": 690466004,
               "status": "passed"
             },
             "line": 5,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 84126398,
+              "duration": 127419608,
               "status": "passed"
             },
             "line": 6,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 1281652660,
+              "duration": 1204197666,
               "status": "passed"
             },
             "line": 7,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 384216392,
+              "duration": 65242128,
               "status": "passed"
             },
             "line": 8,
@@ -113,7 +113,7 @@
         "before": [
           {
             "result": {
-              "duration": 7348869151,
+              "duration": 5491927835,
               "status": "passed"
             },
             "match": {
@@ -128,7 +128,7 @@
         "after": [
           {
             "result": {
-              "duration": 745513481,
+              "duration": 704324795,
               "status": "passed"
             },
             "match": {
@@ -141,7 +141,7 @@
         "steps": [
           {
             "result": {
-              "duration": 112828363,
+              "duration": 144955136,
               "status": "passed"
             },
             "line": 5,
@@ -162,7 +162,7 @@
           },
           {
             "result": {
-              "duration": 102673833,
+              "duration": 96023423,
               "status": "passed"
             },
             "line": 6,
@@ -183,7 +183,7 @@
           },
           {
             "result": {
-              "duration": 3196332874,
+              "duration": 3228796950,
               "status": "passed"
             },
             "line": 7,
@@ -195,7 +195,7 @@
           },
           {
             "result": {
-              "duration": 39426129,
+              "duration": 51888124,
               "status": "passed"
             },
             "line": 8,
@@ -220,7 +220,7 @@
         "before": [
           {
             "result": {
-              "duration": 6497606926,
+              "duration": 5056866484,
               "status": "passed"
             },
             "match": {
@@ -235,7 +235,7 @@
         "after": [
           {
             "result": {
-              "duration": 853987703,
+              "duration": 722980466,
               "status": "passed"
             },
             "match": {
@@ -248,7 +248,7 @@
         "steps": [
           {
             "result": {
-              "duration": 784235147,
+              "duration": 784746932,
               "status": "passed"
             },
             "line": 18,
@@ -260,7 +260,7 @@
           },
           {
             "result": {
-              "duration": 162679609,
+              "duration": 135296996,
               "status": "passed"
             },
             "line": 19,
@@ -281,7 +281,7 @@
           },
           {
             "result": {
-              "duration": 93125795,
+              "duration": 98403669,
               "status": "passed"
             },
             "line": 20,
@@ -302,7 +302,7 @@
           },
           {
             "result": {
-              "duration": 123061269,
+              "duration": 117578122,
               "status": "passed"
             },
             "line": 21,
@@ -323,7 +323,7 @@
           },
           {
             "result": {
-              "duration": 152676236,
+              "duration": 142054709,
               "status": "passed"
             },
             "line": 22,
@@ -344,7 +344,7 @@
           },
           {
             "result": {
-              "duration": 1245173,
+              "duration": 1011441,
               "status": "passed"
             },
             "line": 23,
@@ -369,7 +369,7 @@
           },
           {
             "result": {
-              "duration": 172150,
+              "duration": 98905,
               "status": "passed"
             },
             "line": 24,
@@ -394,7 +394,7 @@
           },
           {
             "result": {
-              "duration": 50852,
+              "duration": 35923,
               "status": "passed"
             },
             "line": 25,
@@ -409,7 +409,7 @@
           },
           {
             "result": {
-              "duration": 34524,
+              "duration": 38722,
               "status": "passed"
             },
             "line": 26,
@@ -424,7 +424,7 @@
           },
           {
             "result": {
-              "duration": 126897,
+              "duration": 111035,
               "status": "passed"
             },
             "line": 27,
@@ -445,7 +445,7 @@
           },
           {
             "result": {
-              "duration": 43387,
+              "duration": 50386,
               "status": "passed"
             },
             "line": 28,
@@ -460,7 +460,7 @@
           },
           {
             "result": {
-              "duration": 35922,
+              "duration": 41522,
               "status": "passed"
             },
             "line": 29,
@@ -475,7 +475,7 @@
           },
           {
             "result": {
-              "duration": 112012399,
+              "duration": 109462336,
               "status": "passed"
             },
             "line": 30,
@@ -496,7 +496,7 @@
           },
           {
             "result": {
-              "duration": 56450,
+              "duration": 33590,
               "status": "passed"
             },
             "line": 31,
@@ -511,7 +511,7 @@
           },
           {
             "result": {
-              "duration": 61116,
+              "duration": 37789,
               "status": "passed"
             },
             "line": 32,
@@ -523,7 +523,7 @@
           },
           {
             "result": {
-              "duration": 62515,
+              "duration": 38722,
               "status": "passed"
             },
             "line": 33,
@@ -536,13 +536,19 @@
             ],
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@Register"
+          }
         ]
       },
       {
         "before": [
           {
             "result": {
-              "duration": 6697610471,
+              "duration": 5164825188,
               "status": "passed"
             },
             "match": {
@@ -557,7 +563,7 @@
         "after": [
           {
             "result": {
-              "duration": 815216118,
+              "duration": 852283463,
               "status": "passed"
             },
             "match": {
@@ -570,7 +576,7 @@
         "steps": [
           {
             "result": {
-              "duration": 211644912,
+              "duration": 221056256,
               "status": "passed"
             },
             "line": 40,
@@ -586,7 +592,7 @@
           },
           {
             "result": {
-              "duration": 27507177,
+              "duration": 25294883,
               "error_message": "java.lang.IndexOutOfBoundsException: Index: 1, Size: 0\r\n\tat java.util.ArrayList.rangeCheck(ArrayList.java:653)\r\n\tat java.util.ArrayList.get(ArrayList.java:429)\r\n\tat pageObjects.ReservationPage.iSelectFlightType(ReservationPage.java:44)\r\n\tat steps.Reserve.i_select_Flight_type(Reserve.java:36)\r\n\tat ✽.And I select Flight type One Way(src/test/java/features/tourism.feature:41)\r\n",
               "status": "failed"
             },

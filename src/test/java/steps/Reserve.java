@@ -29,6 +29,7 @@ public class Reserve {
 	public void i_log_in_with_mercury_and_mercury() throws Throwable {
 		homePage.enterUserName("mercury");
 		homePage.enterPassword("mercury");
+		homePage.submitButton();
 	}
 
 	@Given("^I select Flight type (.*)")
@@ -37,13 +38,12 @@ public class Reserve {
 	}
 
 	@Given("^I select quantity of passengers (.*)")
-	public void i_select_quantity_of_passengers(int arg1) throws Throwable {
-		
-		
+	public void i_select_quantity_of_passengers(int optionPassenger) throws Throwable {
+		//reserve.selectPassangerQuantity(optionPassenger);
 	}
 
 	@Given("^I select departure from: <departuring> on date May, (\\d+)$")
-	public void i_select_departure_from_departuring_on_date_May(int arg1) throws Throwable {
+	public void i_select_departure_from_departuring_on_date_May(int optionDeparture) throws Throwable {
 		
 		
 	}

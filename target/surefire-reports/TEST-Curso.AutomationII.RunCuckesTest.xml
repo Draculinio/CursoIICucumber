@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="Curso.AutomationII.RunCuckesTest" time="55.925" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="Curso.AutomationII.RunCuckesTest" time="33.651" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -65,7 +65,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Curso.AutomationII.RunCuckesTest" name="feature" time="55.925">
+  <testcase classname="Curso.AutomationII.RunCuckesTest" name="feature" time="33.651">
     <failure message="java.lang.IndexOutOfBoundsException: Index: 1, Size: 0" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
@@ -139,6 +139,7 @@ Feature: Curso de automation
     &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI click  Sign-In button&amp;#27;[0m         &amp;#27;[90m# Tourism.I_click_sign_in_button()&amp;#27;[0m
     &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mlogin result must be &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mgoodLogin&amp;#27;[0m  &amp;#27;[90m# LogOn.login_results_must_be(String)&amp;#27;[0m
 
+  @Register
   Scenario Outline: Register a new user in the site &amp;#27;[90m# src/test/java/features/tourism.feature:16&amp;#27;[0m
     &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mclick the REGISTER button&amp;#27;[0m
     &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI enter a firstname &lt;firstname&gt;&amp;#27;[0m
@@ -159,6 +160,7 @@ Feature: Curso de automation
 
     Examples: 
 
+  @Register
   Scenario Outline: Register a new user in the site &amp;#27;[90m# src/test/java/features/tourism.feature:37&amp;#27;[0m
     &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mclick the REGISTER button&amp;#27;[0m                 &amp;#27;[90m# Register.click_the_REGISTER_button()&amp;#27;[0m
     &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI enter a firstname &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mcarlos&amp;#27;[0m                  &amp;#27;[90m# Register.i_enter_a_firstname(String)&amp;#27;[0m
@@ -204,21 +206,21 @@ Feature: Curso de automation
     &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI select Service class First class&amp;#27;[0m                            &amp;#27;[90m# Reserve.i_select_Service_class_First_class()&amp;#27;[0m
     &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI select airline Unified Airlines&amp;#27;[0m                             &amp;#27;[90m# Reserve.i_select_airline_Unified_Airlines()&amp;#27;[0m
 </system-out>
-    <system-err>Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 44499
+    <system-err>Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 34631
 Only local connections are allowed.
-ene 02, 2018 12:03:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ene 02, 2018 2:48:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
-Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 38579
+Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 45986
 Only local connections are allowed.
-ene 02, 2018 12:03:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ene 02, 2018 2:48:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
-Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 16619
+Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 40428
 Only local connections are allowed.
-ene 02, 2018 12:03:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ene 02, 2018 2:48:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
-Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 5914
+Starting ChromeDriver 2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8) on port 35152
 Only local connections are allowed.
-ene 02, 2018 12:03:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+ene 02, 2018 2:48:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: OSS
 </system-err>
   </testcase>
