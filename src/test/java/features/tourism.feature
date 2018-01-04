@@ -11,6 +11,7 @@ Examples:
 |username |password |result     |
 | pepe    | pepe    | badLogin  |
 | mercury | mercury | goodLogin |
+| fail    | fail    | goodLogin | 
 
 @Register
 Scenario Outline: Register a new user in the site

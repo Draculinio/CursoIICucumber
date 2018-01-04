@@ -129,16 +129,14 @@
                   </a> <!-- feature(Curso de automation) -->
                   <span class="method-name">feature</span>
                   <span class="parameters">(Curso de automation)</span>
-                  <div class="stack-trace">cucumber.runtime.CucumberException: java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+                  <div class="stack-trace">cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-Caused by: java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
-	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
-	at java.util.ArrayList.get(ArrayList.java:429)
-	at pageObjects.ReservationPage.iSelectFlightType(ReservationPage.java:44)
-	at steps.Reserve.i_select_Flight_type(Reserve.java:36)
-	at ✽.And I select Flight type One Way(src/test/java/features/tourism.feature:41)
-... Removed 34 stack frames
+Caused by: java.lang.AssertionError: expected [true] but found [false]
+	at pageObjects.ReservationPage.verifyreservationPage(ReservationPage.java:34)
+	at steps.LogOn.login_results_must_be(LogOn.java:29)
+	at ✽.Then login result must be goodLogin(src/test/java/features/tourism.feature:8)
+... Removed 38 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Feature)                  </em>
@@ -209,12 +207,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
 data.setCell(0, 2, 'Curso.AutomationII.RunCuckesTest')
-data.setCell(0, 3, 33578);
+data.setCell(0, 3, 52805);
 window.suiteTableData['Curso.AutomationII.RunCuckesTest']= { tableData: data, tableDiv: 'times-div-Curso.AutomationII.RunCuckesTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <span class="suite-total-time">Total running time: 52 seconds</span>
               <div id="times-div-Curso.AutomationII.RunCuckesTest">
               </div> <!-- times-div-Curso.AutomationII.RunCuckesTest -->
             </div> <!-- times-div -->
@@ -249,11 +247,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">feature(Curso de automation)</span>
-                <span class="method-start">432 ms</span>
+                <span class="method-start">534 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">34027 ms</span>
+                <span class="method-start">53351 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
