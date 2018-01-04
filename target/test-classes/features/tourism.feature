@@ -42,11 +42,12 @@ Scenario Outline: Reserve a flight
 Given I log in with <user> and <password>
 And I select Flight type <flight_type>
 And I select quantity of passengers <quantity_passengers>
-And I select departure from: <departuring> on date <departure_month>, <departure_day>
+And I select departure from: <departing> on date <departure_month>, <departure_day>
 And I select arrival to: <arriving> returning on date <arrival_month>, <arrival_day>
 And I select Service class <service_class>
 And I select airline <airline>
-
+When I click CONTINUE button 
+Then I get redirected to reserve page 2
 Examples:
 
 | user | password | flight_type | quantity_passengers | departing | departure_month | departure_day | arriving 	| arrival_month | arrival_day | service_class | airline 		 | 

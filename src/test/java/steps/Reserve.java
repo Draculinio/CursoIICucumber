@@ -39,30 +39,33 @@ public class Reserve {
 
 	@Given("^I select quantity of passengers (.*)")
 	public void i_select_quantity_of_passengers(int optionPassenger) throws Throwable {
-		//reserve.selectPassangerQuantity(optionPassenger);
+		reserve.iSelectQuantityPassenger(optionPassenger);
 	}
 
-	@Given("^I select departure from: <departuring> on date May, (\\d+)$")
-	public void i_select_departure_from_departuring_on_date_May(int optionDeparture) throws Throwable {
+	@Given("^I select departure from: (.*) on date (.*), (\\d+)$")
+	public void i_select_departure_from_month_and_day(String departureDestination, String departureMonth, int departureDay) throws Throwable {
+		reserve.iSelectDepartureDestination(departureDestination);
+		reserve.iSelectDepartureMonth(departureMonth);
+		reserve.iSelectDepartureDay(departureDay);
+	}
+
+	@Given("^I select arrival to: (.*) returning on date (.*), (\\d+)$")
+	public void i_select_arrival_to_month_and_day(String arrivalDestination, String arrivalMonth, int arrivalDay) throws Throwable {
+		reserve.iSelectArrivalDestination(arrivalDestination);
+		reserve.iSelectArrivalMonth(arrivalMonth);
+		reserve.iSelectArrivalDay(arrivalDay);
 		
 		
 	}
 
-	@Given("^I select arrival to: Frankfurt returning on date February, (\\d+)$")
-	public void i_select_arrival_to_Frankfurt_returning_on_date_February(int arg1) throws Throwable {
-		
-		
-	}
-
-	@Given("^I select Service class First class$")
-	public void i_select_Service_class_First_class() throws Throwable {
-		
+	@Given("^I select Service class (.*)$")
+	public void i_select_Service_class(String serviceClass) throws Throwable {
+		reserve.iSelectServiceClass(serviceClass);
 		
 	}
 
-	@Given("^I select airline Unified Airlines$")
-	public void i_select_airline_Unified_Airlines() throws Throwable {
-		
-		
+	@Given("^I select airline (.*)$")
+	public void i_select_airline(String airline) throws Throwable {
+		reserve.iSelectAirline(airline);
 	}
 }

@@ -26,6 +26,8 @@ public class MailSender {
 			message.addRecipient(Message.RecipientType.TO, new InternetAddress("ssoifer@belatrixsf.com")); //CC or BCC
 			message.setSubject("Reporte del test");
 			message.setText("Envio del reporte del test");
+			//TODO: zip attachment
+			//message.ATTACHMENT
 			Transport t = session.getTransport("smtp");
 			t.connect("pruebas@dracux.com","sapoPepe123");
 			t.sendMessage(message,message.getAllRecipients());
